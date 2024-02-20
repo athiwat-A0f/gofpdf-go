@@ -26,11 +26,10 @@ func main() {
 	// Add font based on filename
 	// pdf.AddFont("Prompt", "", "Prompt-Regular.ttf")
 	pdf.AddUTF8Font("prompt", "", "fonts/Prompt-Regular.ttf")
-
-	pdf.SetFont("prompt", "", 10)
+	pdf.AddUTF8Font("prompt-bold", "B", "fonts/Prompt-Bold.ttf")
 
 	type countryType struct {
-		nameStr, capitalStr, areaStr, popStr string
+		districtStr, cityThStr, cityEnStr, popStr string
 	}
 	countryList := make([]countryType, 0, 8)
 	header := []string{"District", "City (TH)", "City (EN)", "Population"}
@@ -45,9 +44,9 @@ func main() {
 				// print(lineStr)
 				list := strings.Split(lineStr, ";")
 				if len(list) == 4 {
-					c.nameStr = list[0]
-					c.capitalStr = list[1]
-					c.areaStr = list[2]
+					c.districtStr = list[0]
+					c.cityThStr = list[1]
+					c.cityEnStr = list[2]
 					c.popStr = list[3]
 					countryList = append(countryList, c)
 				} else {
@@ -68,14 +67,16 @@ func main() {
 		left := (210.0 - 4*40) / 2
 		pdf.SetX(left)
 		for _, str := range header {
+			pdf.SetFont("prompt-bold", "B", 10)
 			pdf.CellFormat(40, 7, str, "1", 0, "", false, 0, "")
 		}
 		pdf.Ln(-1)
 		for _, c := range countryList {
+			pdf.SetFont("prompt", "", 10)
 			pdf.SetX(left)
-			pdf.CellFormat(40, 6, c.nameStr, "1", 0, "", false, 0, "")
-			pdf.CellFormat(40, 6, c.capitalStr, "1", 0, "", false, 0, "")
-			pdf.CellFormat(40, 6, c.areaStr, "1", 0, "", false, 0, "")
+			pdf.CellFormat(40, 6, c.districtStr, "1", 0, "", false, 0, "")
+			pdf.CellFormat(40, 6, c.cityThStr, "1", 0, "", false, 0, "")
+			pdf.CellFormat(40, 6, c.cityEnStr, "1", 0, "", false, 0, "")
 			pdf.CellFormat(40, 6, c.popStr, "1", 0, "", false, 0, "")
 			pdf.Ln(-1)
 		}
@@ -98,9 +99,9 @@ func main() {
 	// 	// Data
 	// 	for _, c := range countryList {
 	// 		pdf.SetX(left)
-	// 		pdf.CellFormat(w[0], 6, c.nameStr, "LR", 0, "", false, 0, "")
-	// 		pdf.CellFormat(w[1], 6, c.capitalStr, "LR", 0, "", false, 0, "")
-	// 		pdf.CellFormat(w[2], 6, strDelimit(c.areaStr, ",", 3),
+	// 		pdf.CellFormat(w[0], 6, c.districtStr, "LR", 0, "", false, 0, "")
+	// 		pdf.CellFormat(w[1], 6, c.cityThStr, "LR", 0, "", false, 0, "")
+	// 		pdf.CellFormat(w[2], 6, strDelimit(c.cityEnStr, ",", 3),
 	// 			"LR", 0, "R", false, 0, "")
 	// 		pdf.CellFormat(w[3], 6, strDelimit(c.popStr, ",", 3),
 	// 			"LR", 0, "R", false, 0, "")
@@ -137,9 +138,9 @@ func main() {
 	// 	fill := false
 	// 	for _, c := range countryList {
 	// 		pdf.SetX(left)
-	// 		pdf.CellFormat(w[0], 6, c.nameStr, "LR", 0, "", fill, 0, "")
-	// 		pdf.CellFormat(w[1], 6, c.capitalStr, "LR", 0, "", fill, 0, "")
-	// 		pdf.CellFormat(w[2], 6, strDelimit(c.areaStr, ",", 3),
+	// 		pdf.CellFormat(w[0], 6, c.districtStr, "LR", 0, "", fill, 0, "")
+	// 		pdf.CellFormat(w[1], 6, c.cityThStr, "LR", 0, "", fill, 0, "")
+	// 		pdf.CellFormat(w[2], 6, strDelimit(c.cityEnStr, ",", 3),
 	// 			"LR", 0, "R", fill, 0, "")
 	// 		pdf.CellFormat(w[3], 6, strDelimit(c.popStr, ",", 3),
 	// 			"LR", 0, "R", fill, 0, "")
