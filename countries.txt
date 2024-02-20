@@ -1,0 +1,176 @@
+Amnat Charoen;อำนาจเจริญ;Amnat Charoen;26,634
+Ang Sila;อ่างศิลา;Chon Buri;30,538
+Ang Thong;อ่างทอง;Ang Thong;13,134
+Aranyaprathet;อรัญญประเทศ;Sa Kaeo;15,141
+Aranyik;อรัญญิก;Phitsanulok;29,525
+Ayothaya;อโยธยา;Phra Nakhon Si Ayutthaya;18,571
+Ban Bueng;บ้านบึง;Chonburi;15,006
+Ban Chang;บ้านฉาง;Rayong;17,025
+Ban Dung;บ้านดุง;Udon Thani;16,146
+Ban Mi;บ้านหมี่;Lopburi;4,448
+Ban Phai;บ้านไผ่;Khon Kaen;32,604
+Ban Phru;บ้านพรุ;Songkhla;25,128
+Ban Pong;บ้านโป่ง;Ratchaburi;21,892
+Ban Suan;บ้านสวน;Chon Buri;60,797
+Ban Thum;บ้านทุ่ม;Khon Kaen;17,188
+Bang Bua Thong;บางบัวทอง;Nonthaburi;35,761
+Bang Khu Wat;บางคูวัด;Pathum Thani;18,536
+Bang Kruai;บางกรวย;Nonthaburi;42,649
+Bang Mun Nak;บางมูลนาก;Phichit;9,422
+Bang Rachan;บางระจัน;Sing Buri;16,131
+Bang Rin;บางริ้น;Ranong;18,788
+Bang Si Mueang;บางศรีเมือง;Nonthaburi;26,754
+Betong;เบตง;Yala;24,385
+Bua Khao;บัวขาว;Kalasin;12,252
+Bua Yai;บัวใหญ่;Nakhon Ratchasima;16,505
+Bueng Yitho;บึงยี่โถ;Pathum Thani;24,230
+Buriram;บุรีรัมย์;Buriram;28,933
+Cha-am;ชะอำ;Phetchaburi;28,925
+Chachoengsao;ฉะเชิงเทรา;Chachoengsao;43,812
+Chaeramae;แจระแม;Ubon Ratchathani;12,450
+Chai Nat;ชัยนาท;Chai Nat;16,499
+Chaiyaphum;ชัยภูมิ;Chaiyaphum;42,436
+Chanthaburi;จันทบุรี;Chanthaburi;28,011
+Chanthanimit;จันทนิมิต;Chanthaburi;14,008
+Chonburi;ชลบุรี;Chonburi;41,014
+Chum Het;ชุมเห็ด;Buriram;19,945
+Chum Phae;ชุมแพ;Khon Kaen;33,689
+Chum Saeng;ชุมแสง;Nakhon Sawan;10,701
+Chumphon;ชุมพร;Chumphon;34,895
+Det Udom;เดชอุดม;Ubon Ratchathani;14,859
+Dok Khamtai;ดอกคำใต้;Phayao;14,255
+Don Sak;ดอนสัก;Surat Thani;10,145
+Hua Hin;หัวหิน;Prachuap Khiri Khan;41,859
+Kaeng Khoi;แก่งคอย;Saraburi;12,172
+Kalasin;กาฬสินธุ์;Kalasin;36,955
+Kamphaeng Phet;กำแพงเพชร;Kamphaeng Phet;31,192
+Kamphaeng Phet;กำแพงเพชร;Songkhla;14,748
+Kanchanaburi;กาญจนบุรี;Kanchanaburi;39,123
+Kantang;กันตัง;Trang;13,656
+Kantharalak;กันทรลักษ์;Sisaket;20,175
+Kathu;กะทู้;Phuket;20,420
+Khao Rup Chang;เขารูปช้าง;Songkhla;42,111
+Khao Sam Yot;เขาสามยอด;Lopburi;14,776
+Khelang Nakhon;เขลางค์นคร;Lampang;60,646
+Khlong Hae;คลองแห;Songkhla;38,156
+Khlong Luang;คลองหลวง;Pathum Thani;43,273
+Khlung;ขลุง;Chanthaburi;11,996
+Kho Hong;คอหงส์;Songkhla;46,184
+Khuan Lang;ควนลัง;Songkhla;47,024
+Khu Khot;คูคต;Pathum Thani;40,634
+Krabi;กระบี่;Krabi;24,611
+Kranuan;กระนวน;Khon Kaen;12,215
+Krathum Baen;กระทุ่มแบน;Samut Sakhon;16,211
+Krathum Lom;กระทุ่มล้ม;Nakhon Pathom;13,558
+Lam Sam Kaeo;ลำสามแก้ว;Pathum Thani;42,153
+Lam Ta Sao;ลำตาเสา;Phra Nakhon Si Ayutthaya;14,483
+Lamphun;ลำพูน;Lamphun;15,322
+Lang Suan;หลังสวน;Chumphon;9,954
+Lat Luang;ลัดหลวง;Samut Prakan;73,196
+Lat Sawai;ลาดสวาย;Pathum Thani;48,211
+Loei;เลย;Loei;23,725
+Lom Raet;ล้อมแรด;Lampang;15,014
+Lom Sak;หล่มสัก;Phetchabun;14,415
+Lopburi;ลพบุรี;Lopburi;30,791
+Mae Jo;แม่โจ้;Chiang Mai;16,001
+Mae Hia;แม่เหียะ;Chiang Mai;14,356
+Mae Hong Son;แม่ฮ่องสอน;Mae Hong Son;6,208
+Maha Sarakham;มหาสารคาม;Maha Sarakham;46,523
+Map Ta Phut;มาบตาพุด;Rayong;33,794
+Muang Ngam;ม่วงงาม;Songkhla;11,165
+Mueang Kaen Phatthana;เมืองแกนพัฒนา;Chiang Mai;14,342
+Mueang Pak;เมืองปัก;Nakhon Ratchasima;13,848
+Mueang Phon;เมืองพล;Khon Kaen;14,220
+Mukdahan;มุกดาหาร;Mukdahan;35,313
+Nà Sản;นาสาร;Surat Thani;19,445
+Nakhon Nayok,;นครนายก;Nakhon Nayok;17,596
+Nakhon Phanom;นครพนม;Nakhon Phanom;31,449
+Nan;น่าน;Nan;22,273
+Nang Rong;นางรอง;Buriram;20,798
+Narathiwat;นราธิวาส;Narathiwat;42,890
+Nong Sung-Nam Kham;โนนสูง-น้ำคำ;Udon Thani;10,440
+Nong Bua Lamphu;หนองบัวลำภู;Nong Bua Lamphu;22,061
+Nong Khai;หนองคาย;Nong Khai;46,180
+Nong Pling;หนองปลิง;Kamphaeng Phet;11,940
+Nong Prue;หนองปรือ;Chon Buri;46,098
+Nong Samrong;หนองสำโรง;Udon Thani;39,489
+Pa Tong;ป่าตอง;Phuket;13,051
+Padang Besar;ปาดังเบซาร์;Songkhla;16,189
+Pak Chong;ปากช่อง;Nakhon Ratchasima;40,487
+Pak Nam Samut Prakan;ปากน้ำสมุทรปราการ;Samut Prakan;20,822
+Pak Phanang;ปากพนัง;Nakhon Si Thammarat;24,716
+Pak Phun;ปากพูน;Nakhon Si Thammarat;32,622
+Pang Makha;ปางมะค่า;Kamphaeng Phet;19,945
+Pathum Thani;ปทุมธานี;Pathum Thani;19,031
+Pattani;ปัตตานี;Pattani;45,914
+Phak Hai;ผักไห่;Phra Nakhon Si Ayutthaya;9,429
+Phanat Nikhom;พนัสนิคม;Chon Buri;12,555
+Phang Nga;พังงา;Phang Nga;9,385
+Phatthalung;พัทลุง;Phatthalung;43,065
+Phayao;พะเยา;Phayao;20,680
+Phetchabun;เพชรบูรณ์;Phetchabun;25,695
+Phetchaburi;เพชรบุรี;Phetchaburi;32,396
+Phibun Mangsahan;พิบูลมังสาหาร;Ubon Ratchathani;11,987
+Phichai;พิชัย;Lampang;11,695
+Phichit;พิจิตร;Phichit;24,775
+Phimonrat;พิมลราช;Nonthaburi;39,815
+Photharam;โพธาราม;Ratchaburi;11,987
+Phra Phutthabat;พระพุทธบาท;Saraburi;49,572
+Phra Pradaeng;พระประแดง;Samut Prakan;10,540
+Phrae;แพร่;Phrae;18,173
+Prachinburi;ปราจีนบุรี;Prachinburi;21,125
+Prachuap Khiri Khan;ประจวบคีรีขันธ์;Prachuap Khiri Khan;18,380
+Prok Fa;ปรกฟ้า;Chon Buri;14,254
+Pu Chao Saming Phrai;ปู่เจ้าสมิงพราย;Samut Prakan;77,976
+Rai Khing;ไร่ขิง;Nakhon Pathom;20,752
+Ranong;ระนอง;Ranong;15,364
+Ratchaburi;ราชบุรี;Ratchaburi;44,983
+Roi Et;ร้อยเอ็ด;Roi Et;37,131
+Sa Kaeo;สระแก้ว;Sa Kaeo;16,393
+Sadao;สะเดา;Songkhla;21,753
+Saen Suk;แสนสุข;Chon Buri;39,563
+Sam Phran;สามพราน;Nakhon Pathom;16,253
+Samut Songkhram;สมุทรสงคราม;Samut Songkhram;35,475
+Sanan Rak;สนันรักษ์;Pathum Thani;16,002
+Saraburi;สระบุรี;Saraburi;67,858
+Sateng Nok;สะเตงนอก;Yala;24,714
+Sattahip;สัตหีบ;Chon Buri;23,107
+Satun;สตูล;Satun;22,994
+Sawankhalok;สวรรคโลก;Sukhothai;19,966
+Sena;เสนา;Phra Nakhon Si Ayutthaya;5,048
+Si Racha;ศรีราชา;Chonburi;25,999
+Si Satchanalai;ศรีสัชนาลัย;Sukhothai;15,688
+Sikhio;สีคิ้ว;Nakhon Ratchasima;18,644
+Sila;ศิลา;Khon Kaen;47,070
+Sing Buri;สิงห์บุรี;Sing Buri;21,148
+Singhanakhon;สิงหนคร;Songkhla;39,274
+Sisaket;ศรีสะเกษ;Sisaket;41,680
+Song Phi Nong;สองพี่น้อง;Suphanburi;27,677
+Sukhothai Thani;สุโขทัยธานี;Sukhothai;19,576
+Su-ngai Kolok;สุไหงโก-ลก;Narathiwat;40,409
+Suphanburi;สุพรรณบุรี;Suphanburi;27,677
+Surin;สุรินทร์;Surin;41,818
+Tak;ตาก;Tak;24,360
+Tak Bai;ตากใบ;Narathiwat;17,419
+Takhli;ตาคลี;Nakhon Sawan;34,492
+Takua Pa;ตะกั่วป่า;Phang Nga;8,145
+Taluban;ตะลุบัน;Pattani;14,144
+Taphan Hin;ตะพานหิน;Phichit;21,199
+Tha Bo;ท่าบ่อ;Nong Khai;21,126
+Tha Chang;ท่าช้าง;Chanthaburi;10,864
+Tha Kham;ท่าข้าม;Surat Thani;22,250
+Tha Khlong;ท่าโขลง;Pathum Thani;34,221
+Tha Mai;ท่าใหม่;Chanthaburi;10,258
+Tha Ruea Phra Thaen;ท่าเรือพระแท่น;Kanchanaburi;13,136
+Thap Kwang;ทับกวาง;Saraburi;16,977
+Thung Song;ทุ่งสง;Nakhon Si Thammarat;27,244
+Thung Tam Sao;ทุ่งตำเสา;Songkhla;16,706
+Ton Pao;ต้นเปา;Chiang Mai;12,452
+Trat;ตราด;Trat;15,501
+Uthai Thani;อุทัยธานี;Uthai Thani;18,968
+Uttaradit;อุตรดิตถ์;Uttaradit;43,945
+Wang Nam Yen;วังน้ำเย็น;Sa Kaeo;22,888
+Wang Saphung;วังสะพุง;Loei;12,558
+Warin Chamrap;วารินชำราบ;Ubon Ratchathani;31,673
+Wichian Buri;วิเชียรบุรี;Phetchabun;24,804
+Yasothon;ยโสธร;Yasothon;22,350
