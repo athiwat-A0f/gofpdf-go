@@ -34,7 +34,7 @@ func main() {
 	}
 	countryList := make([]countryType, 0, 8)
 	// count := 0
-	header := []string{"Order", "District", "City (TH)", "City (EN)", "Po."}
+	header := []string{"Order", "District (EN)", "District (TH)", "Province", "Po."}
 	loadData := func(fileStr string) {
 		fl, err := os.Open(fileStr)
 		if err == nil {
@@ -83,7 +83,7 @@ func main() {
 			if index%rows == 0 {
 				pdf.SetTopMargin(30)
 				pdf.SetHeaderFuncMode(func() {
-					// pdf.Image(example.ImageFile("logo.png"), 10, 6, 30, 0, false, "", 0, "")
+					pdf.Image("map.jpg", 5, 5, 20, 0, false, "", 0, "")
 					pdf.SetY(5)
 					pdf.SetFont("prompt-bold", "B", 14)
 					// pdf.Cell(150, 10, "District In Thailand")
