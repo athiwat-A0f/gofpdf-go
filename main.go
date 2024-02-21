@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strconv"
 	"strings"
 
 	"github.com/jung-kurt/gofpdf"
@@ -32,7 +33,8 @@ func main() {
 		districtStr, cityThStr, cityEnStr, popStr string
 	}
 	countryList := make([]countryType, 0, 8)
-	header := []string{"District", "City (TH)", "City (EN)", "Population"}
+	// count := 0
+	header := []string{"Order", "District", "City (TH)", "City (EN)", "Po."}
 	loadData := func(fileStr string) {
 		fl, err := os.Open(fileStr)
 		if err == nil {
@@ -49,11 +51,14 @@ func main() {
 					c.cityEnStr = list[2]
 					c.popStr = list[3]
 					countryList = append(countryList, c)
+
 				} else {
 					err = fmt.Errorf("error tokenizing %s", lineStr)
 				}
 			}
 			fl.Close()
+			// fmt.Println(countryList)
+			// count = len(countryList)
 			if len(countryList) == 0 {
 				err = fmt.Errorf("error loading data from %s", fileStr)
 			}
@@ -62,24 +67,55 @@ func main() {
 			pdf.SetError(err)
 		}
 	}
+
 	// Simple table
 	basicTable := func() {
-		left := (210.0 - 4*40) / 2
-		pdf.SetX(left)
-		for _, str := range header {
-			pdf.SetFont("prompt-bold", "B", 10)
-			pdf.CellFormat(40, 7, str, "1", 0, "", false, 0, "")
-		}
-		pdf.Ln(-1)
-		for _, c := range countryList {
+		// pages := math.Ceil(float64(count) / 40)
+		// println(count)
+		// println(pages)
+
+		i := 0
+		j := 0
+		rows := 30
+		left := (210.0 - 5*40) / 2
+		for index, c := range countryList {
+			// println(index)
+			if index%rows == 0 {
+				if index > 0 {
+					pdf.AddPage()
+				}
+
+				pdf.SetX(left)
+
+				for index2, str := range header {
+					pdf.SetFont("prompt-bold", "B", 10)
+					// print("index=", index2)
+					if index2 == 0 || index2 == 4 {
+						pdf.CellFormat(20, 7, str, "1", 0, "", false, 0, "")
+					} else {
+						pdf.CellFormat(50, 7, str, "1", 0, "", false, 0, "")
+					}
+				}
+				pdf.Ln(-1)
+
+				i++
+				println("==", i)
+			}
+			j++
+
 			pdf.SetFont("prompt", "", 10)
 			pdf.SetX(left)
-			pdf.CellFormat(40, 6, c.districtStr, "1", 0, "", false, 0, "")
-			pdf.CellFormat(40, 6, c.cityThStr, "1", 0, "", false, 0, "")
-			pdf.CellFormat(40, 6, c.cityEnStr, "1", 0, "", false, 0, "")
-			pdf.CellFormat(40, 6, c.popStr, "1", 0, "", false, 0, "")
+
+			pdf.CellFormat(20, 6, strconv.Itoa(j), "1", 0, "C", false, 0, "")
+			pdf.CellFormat(50, 6, c.districtStr, "1", 0, "", false, 0, "")
+			pdf.CellFormat(50, 6, c.cityThStr, "1", 0, "", false, 0, "")
+			pdf.CellFormat(50, 6, c.cityEnStr, "1", 0, "", false, 0, "")
+			pdf.CellFormat(20, 6, c.popStr, "1", 0, "", false, 0, "")
+
 			pdf.Ln(-1)
+
 		}
+
 	}
 	// // Better table
 	// improvedTable := func() {
