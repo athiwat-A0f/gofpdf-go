@@ -81,9 +81,7 @@ func main() {
 		for index, c := range countryList {
 			// println(index)
 			if index%rows == 0 {
-				if index > 0 {
-					pdf.AddPage()
-				}
+				pdf.AddPage()
 
 				pdf.SetX(left)
 
@@ -189,7 +187,7 @@ func main() {
 	loadData("countries.txt")
 	// pdf.SetFont("Prompt", "", 14)
 
-	pdf.AddPage()
+	// pdf.AddPage()
 	basicTable()
 	// pdf.AddPage()
 	// improvedTable()
