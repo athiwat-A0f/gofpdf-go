@@ -81,8 +81,24 @@ func main() {
 		for index, c := range countryList {
 			// println(index)
 			if index%rows == 0 {
-				pdf.AddPage()
+				pdf.SetTopMargin(30)
+				pdf.SetHeaderFuncMode(func() {
+					// pdf.Image(example.ImageFile("logo.png"), 10, 6, 30, 0, false, "", 0, "")
+					pdf.SetY(5)
+					pdf.SetFont("prompt-bold", "B", 14)
+					// pdf.Cell(150, 10, "District In Thailand")
+					pdf.CellFormat(0, 10, "District In Thailand", "", 0, "C", false, 0, "")
+					pdf.Ln(20)
+				}, true)
 
+				pdf.SetFooterFunc(func() {
+					pdf.SetY(-15)
+					pdf.SetFont("prompt", "", 8)
+					pdf.CellFormat(0, 10, fmt.Sprintf("Page %d", pdf.PageNo()),
+						"", 0, "C", false, 0, "")
+				})
+
+				pdf.AddPage()
 				pdf.SetX(left)
 
 				for index2, str := range header {
