@@ -1,5 +1,5 @@
 install package
-$ go mmod tidy
+$ go mod tidy
 
 run script
 $ go run main.go
